@@ -10,14 +10,6 @@ eureka:
     service-url:
       defaultZone: http://admin:Cube4302@localhost:8888/eureka/
 
-zuul:
-  routes:
-    user:
-        path: /user1/**
-        serviceId: SPOTUSER
-    spotweb:
-        path: /spotweb/**
-        serviceId: SPOTWEB
 spring:
  application: zuul-service-filter
 
